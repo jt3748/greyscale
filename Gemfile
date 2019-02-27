@@ -62,7 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'administrate', '~> 0.11.0'
-gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+# gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 # gem 'bootstrap-sass'
 gem 'data-confirm-modal', '~> 1.6', '>= 1.6.2'
 gem 'devise', '~> 4.6', '>= 4.6.1'
@@ -83,3 +83,5 @@ gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'sitemap_generator', '~> 6.0', '>= 6.0.1'
 gem 'whenever', require: false
 gem 'webpacker', '~> 4.0.0.rc.7'
+
+gem 'lightbox-bootstrap-rails', '5.1.0.1'
