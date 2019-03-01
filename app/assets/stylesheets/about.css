@@ -1,0 +1,26 @@
+
+
+#about-dropdown-btn {
+  height:auto;
+  color:#fff;
+  cursor:pointer;
+}
+
+#about-dropdown-div {
+  height:0px;
+  visibility: hidden;
+  -webkit-transition:height, 0.5s linear;
+  -moz-transition: height, 0.5s linear;
+  -ms-transition: height, 0.5s linear;
+  -o-transition: height, 0.5s linear;
+  transition: height, 0.5s linear;
+}
+#about-dropdown-div.open {
+  visibility: visible;
+  height:900px;
+  -webkit-transition:height, 0.5s linear;
+  -moz-transition: height, 0.5s linear;
+  -ms-transition: height, 0.5s linear;
+  -o-transition: height, 0.5s linear;
+  transition: height, 0.5s linear;
+}

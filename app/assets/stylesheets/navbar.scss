@@ -1,0 +1,24 @@
+.nav-logo {
+  transform: scale(.7) translateY(-48px)
+}
+.navbar-brand {
+  height: 72px;
+}
+
+.dropdown-menu {display: block;visibility: hidden;opacity:0;transform: translateY(50px);transition:.5s ease all;}
+.dropdown-menu.show {display: block;visibility: visible;opacity:1;transform: translateY(0px);transition:.5s ease all;}
+
+li.dropdown:hover > .dropdown-menu.show {
+  visibility: visible;
+}
+
+
+  @media only screen and (max-width: 992px) {
+    .dropdown-menu {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0px);
+      transition: 0s ease all;
+      border: none;
+    }
+  }

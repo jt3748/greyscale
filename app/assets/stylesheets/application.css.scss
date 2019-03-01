@@ -5,8 +5,14 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "bootstrap";
-@import "sticky-footer";
+// @import "sticky-footer";
 @import "announcements";
+@import "contact";
+@import "navbar";
+@import "carousel";
+@import "about";
+@import "products";
+@import "lightbox";
 
 // Fixes bootstrap nav-brand container overlap
 @include media-breakpoint-down(xs) {
@@ -19,4 +25,19 @@
 // Masquerade alert shouldn't have a bottom margin
 body > .alert {
   margin-bottom: 0;
+}
+body {
+  scroll-behavior: smooth;
+}
+.parallax {
+/* The image used */
+
+/* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }

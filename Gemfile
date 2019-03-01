@@ -85,3 +85,4 @@ gem 'whenever', require: false
 gem 'webpacker', '~> 4.0.0.rc.7'
 
 gem 'lightbox-bootstrap-rails', '5.1.0.1'
+gem 'inline_svg'

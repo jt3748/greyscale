@@ -1,0 +1,89 @@
+ .btn-primary {
+   background-color: #82AE47 !important;
+ }
+ .btn-primary:hover {
+   background-color: #516c2c !important;
+ }
+@media (min-width: 992px) {
+   #mainNav .nav-link {
+     color: white;
+   }
+ }
+
+ .masthead {
+   position: absolute;
+   top: 0;
+   /* background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(bg-masthead.jpg);
+   background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(bg-masthead.jpg); */
+ }
+ .signup-section {
+   padding: 5rem 0 ;
+   background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(bg-signup.jpg) ;
+   background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(bg-signup.jpg) ;
+ }
+
+
+ .fab {
+     font-family: "Font Awesome 5 Brands" ;
+ }
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+.about-section {
+  background: -webkit-gradient(linear,left top,left bottom,from black,to #f8f9fa);
+  background: linear-gradient(to bottom,#161616, #f8f9fa 100%);
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: black;
+  text-decoration: none;
+  border-left: 2px solid #82AE47;
+  background-color: rgba(0,0,0,0);
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width:
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #82AE47;
+    border-bottom: .25rem solid #82AE47;
+  }
+  .projects-section .featured-text {
+    border-left: .5rem solid #82AE47;
+  }
+  .projects-section .project-text hr {
+    border-color: #82AE47;
+  }
+}
+#mainNav .navbar-toggler {
+    color: #82AE47;
+    border: 1px solid #82AE47;
+}
+.signup-section {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+      background-position: no-repeat;
+      background-repeat: no-repeat;
+      /* background-size: contain; */
+      background-image: url('mystache/cover.jpg');
+
+    padding: 5rem 0;
+    /* background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(mystache/cover.jpg); */
+}
+.bg-black {
+  background-attachment: fixed;
+      background-position: no-repeat;
+      background-repeat: no-repeat;
+      /* background-size: contain; */
+      background-image: url('products/wetleaf.jpg');
+
+}
