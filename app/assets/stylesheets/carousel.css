@@ -1,5 +1,5 @@
 .carousel-first {
-  background: url(bg-closeup.jpeg);
+  background: url(products/bg-closeup.jpeg);
 }
 .carousel-second {}
 .carousel-third {}
@@ -40,7 +40,7 @@
       box-shadow: 0 0 0 0 rgba(204,169,44, 0);
   }
 }
-.mustache {
+/* .mustache {
   width: 100%;
   padding: 8vw;
 }
@@ -58,7 +58,7 @@
   background-position: center;
   -ms-background-size: contain;
   background-size: contain;
-}
+} */
 
 
 .z2 {
