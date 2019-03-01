@@ -1,4 +1,7 @@
-@media (max-width: 768px) {
+body {
+  scroll-behavior: smooth;
+  }
+  @media (max-width: 768px) {
   .masthead {
   padding: 15.6rem 0;
   }

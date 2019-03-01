@@ -1,5 +1,6 @@
 require 'sidekiq/web'
 
+
 Rails.application.routes.draw do
   namespace :admin do
       resources :users
@@ -11,6 +12,10 @@ Rails.application.routes.draw do
     end
   get '/privacy', to: 'home#privacy'
   get '/terms', to: 'home#terms'
+  post 'home/index'
+
+  # mailing thankyou page
+
   resources :notifications, only: [:index]
   resources :announcements, only: [:index]
   authenticate :user, lambda { |u| u.admin? } do
