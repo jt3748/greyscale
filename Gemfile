@@ -83,8 +83,8 @@ gem 'sitemap_generator', '~> 6.0', '>= 6.0.1'
 gem 'whenever', require: false
 gem 'webpacker', '~> 4.0.0.rc.7'
 
-gem 'lightbox-bootstrap-rails', '5.1.0.1'
-gem 'inline_svg'
+
+
 
 group :production do
   # Use postgresql as the database for Active Record
