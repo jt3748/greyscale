@@ -1,8 +1,4 @@
-//Fade in on initial page load
-$(document).ready(function(){
-    $('body').fadeIn();
-    console.log('working');
-});
+
 
 $( document ).on('turbolinks:load', function() {
 
