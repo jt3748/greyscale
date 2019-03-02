@@ -6,12 +6,20 @@ body {
   padding: 15.6rem 0;
   }
 }
+section {
+  padding-top: 70px;
+}
+*:focus{
+  outline: 0 !important;
+}
  .btn-primary {
    background-image: url(mustache-btn-grey2.png);
    background-size: 80%;
    background-repeat: no-repeat;
    background-position: center;
    background-color: #82AE47 !important;
+   border: none;
+   padding: 1rem
 
  }
  .btn-primary:hover {

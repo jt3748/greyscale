@@ -58,30 +58,11 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'administrate', '~> 0.11.0'
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
-# gem 'bootstrap-sass'
-gem 'data-confirm-modal', '~> 1.6', '>= 1.6.2'
-gem 'devise', '~> 4.6', '>= 4.6.1'
-gem 'devise-bootstrapped', github: 'excid3/devise-bootstrapped', branch: 'bootstrap4'
-gem 'devise_masquerade', '~> 0.6.2'
 gem 'font-awesome-sass', '~> 5.6', '>= 5.6.1'
 gem 'foreman', '~> 0.85.0'
-gem 'friendly_id', '~> 5.2', '>= 5.2.5'
-gem 'gravatar_image_tag', github: 'mdeering/gravatar_image_tag'
-# gem 'jquery-rails', '~> 4.3.1'
-gem 'local_time', '~> 2.1'
-gem 'mini_magick', '~> 4.9', '>= 4.9.2'
-gem 'name_of_person', '~> 1.1'
-gem 'omniauth-facebook', '~> 5.0'
-gem 'omniauth-github', '~> 1.3'
-gem 'omniauth-twitter', '~> 1.4'
-gem 'sidekiq', '~> 5.2', '>= 5.2.5'
-gem 'sitemap_generator', '~> 6.0', '>= 6.0.1'
-gem 'whenever', require: false
-gem 'webpacker', '~> 4.0.0.rc.7'
+
 
 
 
