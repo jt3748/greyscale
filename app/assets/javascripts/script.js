@@ -1,12 +1,7 @@
 
 
 $( document ).on('turbolinks:load', function() {
-
-
-
-
-
-
+console.log('script.js is working')
     // animate nav dropdown
       $('.nav-a-drop, .nav-div-drop, .nav-li-drop').hover(
          function(){
