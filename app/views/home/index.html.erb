@@ -97,8 +97,7 @@
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="<%= image_path('bg-masthead.jpg') %>" alt="">
-          </div>
+            <%= image_tag("bg-masthead.jpg", class: "img-fluid mb-3 mb-lg-0") %>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <h4>Moonrocks</h4>
@@ -110,7 +109,7 @@
         <!-- Project One Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="<%= image_path('products/moonrock.png') %>" alt="">
+            <%= image_tag("products/moonrock.png", class: "img-fluid") %>
           </div>
           <div class="col-lg-6">
             <div class="parallax bg-moonrocks text-center h-100 project">
@@ -130,7 +129,8 @@
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="<%= image_path('products/rocks.jpeg') %>" alt="">
+            <%= image_tag('products/rocks.jpeg', class: 'img-fluid', alt: 'moonrocks.jpeg') %>
+
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="parallax bg-moonrocks text-center h-100 project">
@@ -157,7 +157,9 @@
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="<%= image_path('bg-masthead.jpg') %>" alt="">
+
+            <%= image_tag('bg-masthead.jpg', class: 'img-fluid mb-3 mb-lg-0', alt: 'cover-img.jpg') %>
+
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
@@ -170,7 +172,8 @@
         <!-- Project One Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="<%= image_path('products/rosin-white.JPG') %>" alt="">
+            <%= image_tag('products/rosin-white.JPG', class: 'img-fluid', alt: 'moonrocks.jpeg') %>
+
           </div>
           <div class="col-lg-6">
             <div class="parallax bg-rosin text-center h-100 project">
@@ -190,7 +193,7 @@
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="<%= image_path('products/rosin-gorilla.jpeg') %>" alt="">
+            <%= image_tag("products/rosin-gorilla.jpg", class: "img-fluid") %>
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="parallax bg-rosin text-center h-100 project">
