@@ -12,7 +12,7 @@ Rails.application.routes.draw do
     end
   get '/privacy', to: 'home#privacy'
   get '/terms', to: 'home#terms'
-  post 'home/index'
+  post 'home/thank_you'
 
   # mailing thankyou page
 
