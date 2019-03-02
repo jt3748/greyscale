@@ -11,6 +11,7 @@
 // about supported directives.
 //
 
+//= require_self
 //= require rails-ujs
 
 //= require data-confirm-modal
