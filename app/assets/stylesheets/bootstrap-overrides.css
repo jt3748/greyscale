@@ -89,7 +89,7 @@ section {
       background-position: no-repeat;
       background-repeat: no-repeat;
       /* background-size: contain; */
-      background-image: url('mystache/cover.jpg');
+      background-image: url('cover.png');
 
     padding: 5rem 0;
     /* background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(mystache/cover.jpg); */
@@ -99,6 +99,6 @@ section {
       background-position: no-repeat;
       background-repeat: no-repeat;
       /* background-size: contain; */
-      background-image: url('products/wetleaf.jpg');
+      background-image: url('wetleaf.png');
 
 }
