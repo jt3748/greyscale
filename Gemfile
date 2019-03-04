@@ -83,9 +83,7 @@ gem 'sitemap_generator', '~> 6.0', '>= 6.0.1'
 gem 'whenever', require: false
 gem 'webpacker', '~> 4.0.0.rc.7'
 
-
-
-
+gem 'rails_12factor'
 group :production do
   # Use postgresql as the database for Active Record
   gem 'pg', '>= 0.18', '< 2.0'
