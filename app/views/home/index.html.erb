@@ -561,7 +561,27 @@
 
 
 
+            <h1>Contact Us</h1>
 
+          <%= flash[:notice] %>
+
+          <%= form_with(url:"/home/thank_you", method: "post", local: true, role: "form") do |form| %>
+          <div class="row">
+            <div class="form-group">
+              <%# <%= form.label :name %> %>
+              <%= form.text_field :name, class: "form-control", placeholder: "Enter Name" %>
+            </div>
+            <div class="form-group">
+              <%# <%= form.label :email %> %>
+
+            </div>
+            <div class="form-group">
+              <%# <%= form.label :message %> %>
+              <%= form.text_area :message, class: "form-control", placeholder: "Enter Message", rows: 5 %>
+            </div>
+          </div>
+          <%= form.submit "Send", class: "form_label" %>
+          <% end %>
 
 
 
@@ -614,7 +634,9 @@
               <%= form.text_area :message, class: "form-control", placeholder: "MESSAGE", rows: 5 %>
               <!-- <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span> -->
             </div>
-            <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+            <%= form.submit "Send", class: "btn btn-primary" %>
+
+            <!-- <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button> -->
           <% end %>
         </div><!-- /.col -->
       </div><!-- /.row -->
