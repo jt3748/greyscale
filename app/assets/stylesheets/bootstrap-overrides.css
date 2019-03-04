@@ -13,7 +13,7 @@ section {
   outline: 0 !important;
 }
  .btn-primary {
-   background-image: url(mustache-btn-grey2.png);
+   background-image: url('https://i.ibb.co/hdwGrdc/mustache-btn-grey2.png');
    background-size: 80%;
    background-repeat: no-repeat;
    background-position: center;
@@ -89,7 +89,7 @@ section {
       background-position: no-repeat;
       background-repeat: no-repeat;
       /* background-size: contain; */
-      background-image: url('cover.png');
+      background-image: url('https://i.ibb.co/pjvzz2J/cover.png');
 
     padding: 5rem 0;
     /* background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(mystache/cover.jpg); */
@@ -99,6 +99,6 @@ section {
       background-position: no-repeat;
       background-repeat: no-repeat;
       /* background-size: contain; */
-      background-image: url('wetleaf.png');
+      background-image: url('https://i.ibb.co/Bz19JQr/wetleaf.png');
 
 }
