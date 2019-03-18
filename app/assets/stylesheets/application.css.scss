@@ -5,14 +5,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "bootstrap";
-@import "sticky-footer";
-@import "announcements";
-@import "contact";
-@import "navbar";
-@import "carousel";
-@import "about";
-@import "products";
-@import "lightbox";
+@import "css/**/*";
 
 // Fixes bootstrap nav-brand container overlap
 @include media-breakpoint-down(xs) {
