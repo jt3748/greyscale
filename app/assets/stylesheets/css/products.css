@@ -1,0 +1,18 @@
+.parallax {
+  background-attachment: fixed;
+  background-position: no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bg-moonrocks {
+  background-image: url(products/kurupts_moonrocks.jpg);
+}
+.bg-rosin {
+  background-image: url(products/rosin1.jpg);
+}
+.bg-flower {
+  background-image: url(products/wetleaf.jpg);
+}
+.bg-cartridges {
+  background-image: url(products/wetleaf.jpg);
+}
